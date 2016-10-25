@@ -56,6 +56,7 @@ public class Namefinder {
       System.out.println("Usage: Namefinder count");
       return;
     }
+    System.out.println("Harry hamster");
     int count = Integer.parseInt(args[0]);
     for (int i = 0; i < count; i++) {
       final String name = name();
